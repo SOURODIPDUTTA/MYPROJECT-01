@@ -1,0 +1,86 @@
+#headonstyle
+{
+    width: 70%;padding:auto;
+    font-family: 'Rubik Marker Hatch', cursive;
+    text-align: center;
+    text-shadow: 10px black;
+    margin:auto;
+    box-shadow: 10px 10px 5px brown;
+}
+#headonstyle:hover
+{
+    padding: 10px;
+    color: black;
+}
+
+#headerlogo
+{
+    border: 5px solid #00FF47;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px greenyellow;
+    width:50%;
+    height:50%;
+    margin:auto auto;
+    clear: both;
+}
+.nav
+{
+   
+    background-color: beige;
+}
+#homelogo
+{
+    margin-right: 15px;
+    
+}
+#homelogo:hover
+{
+          
+         font-size: 20px;      
+         color: black;
+}
+#box
+{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+
+}
+.boxitm1
+{
+    text-align: center;
+    color: white;
+    
+    border: 1px solid skyblue;
+    border-radius: 2px;
+    box-shadow: 2px 2px black;
+}
+#getstartedbx
+{
+    width: max-content; 
+    border: 2px solid white ;
+    border-radius:50px;
+    font-weight:bold;
+    margin:20px auto;
+    box-shadow: 10px 10px 10px  greenyellow;
+}
+#getstartedbx:hover
+{
+    padding: 10px 20px;
+    
+}
+#getstarted
+{
+    text-decoration: none;
+    color: beige;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 50px;
+    max-height: 50px;
+}
+#getstarted:hover
+{
+    padding: 30px 30px;
+    color: black;
+    background-color:aliceblue;
+}
